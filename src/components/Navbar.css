@@ -7,12 +7,29 @@
   padding: 1rem 2rem;
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .nav-links {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  flex: 1;
 }
 
 .nav-links a {

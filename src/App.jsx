@@ -4,6 +4,7 @@ import "./App.css";
 import onTheToilet from "./assets/onTheToilet.JPG";
 import nipple from "./assets/nipple.PNG";
 import vod from "./assets/vod.mov";
+import body from "./assets/body.png";
 
 function App() {
   return (
@@ -82,7 +83,21 @@ function App() {
             />
             <Route
               path="/body"
-              element={<div className="fullscreen-image">Body Content</div>}
+              element={
+                <div className="fullscreen-image">
+                  <img
+                    src={body}
+                    alt="body"
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "100%",
+                      objectFit: "contain",
+                      display: "block",
+                      margin: "auto",
+                    }}
+                  />
+                </div>
+              }
             />
           </Routes>
         </main>
