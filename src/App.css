@@ -132,6 +132,17 @@ body {
 }
 
 @media (max-width: 800px) {
+  body {
+    overflow: auto;
+    height: auto;
+  }
+  .app,
+  .content,
+  .fullscreen-image,
+  .home-layout {
+    height: auto !important;
+    min-height: 100vh;
+  }
   .home-layout {
     flex-direction: column;
     justify-content: flex-start;
