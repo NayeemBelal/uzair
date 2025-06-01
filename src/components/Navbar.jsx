@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-links">
-        <Link to="/cheeks">my cheeks</Link>
+        <Link to="/mylove">my love</Link>
         <Link to="/nipples">my nipples</Link>
         <Link to="/body">my body</Link>
       </div>
